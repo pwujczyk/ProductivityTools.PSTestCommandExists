@@ -6,7 +6,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>MyApplication</RootNamespace>
     <AssemblyName>MyApplication</AssemblyName>
-    <Name>ProductivityTools.PSTestCommandExists</Name>
+    <Name>ProductivityTools.TestCommandExists</Name>
     <ProjectHome />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -27,8 +27,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="ProductivityTools.PSTestCommandExists.psd1" />
-    <Compile Include="ProductivityTools.PSTestCommandExists.psm1" />
+    <Compile Include="ProductivityTools.TestCommandExists.psd1" />
+    <Compile Include="ProductivityTools.TestCommandExists.psm1" />
     <Compile Include="Runner.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

@@ -1,6 +1,6 @@
 clear
 cd $PSScriptRoot
-Import-Module .\ProductivityTools.PSTestCommandExists.psm1 -Force
+Import-Module .\ProductivityTools.TestCommandExists.psm1 -Force
 $result=Test-CommandExists "Get-Process"
 if($result -eq $true) {Write-Host "OK"} else {write-Host "Not OK"}
 
